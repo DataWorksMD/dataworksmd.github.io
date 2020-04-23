@@ -256,7 +256,15 @@ header .navbar {
 }
 
 #banner .block h1 img {
-  width: 50%;
+  width: 100%;
+  background-color: red;
+}
+
+@media all and (min-device-width: 1025px) {
+#banner .block h1 img {
+  width: 60%;
+  background-color: purple;
+}
 }
 
 #banner .block h2 {
