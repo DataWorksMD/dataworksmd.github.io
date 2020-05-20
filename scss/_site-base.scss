@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5,
 	padding: 4em 0;
 	background: lighten($black, 20%);
 	@include media-breakpoint-up(md) {
-		padding: 8em 0;	
+		padding: 4em 0;
 	}
 	.border-top {
 		border-top: 1px solid rgba(255,255,255,.1)!important;
@@ -232,12 +232,7 @@ h1, h2, h3, h4, h5,
 	h2,h3,h4,h5 {
 		color: $white;
 	}
-	a {
-		color: rgba($white, .5);
-		&:hover {
-			color: rgba($white, 1);
-		}
-	}
+
 	ul {
 		li {
 			margin-bottom: 10px;
@@ -409,6 +404,8 @@ h1, h2, h3, h4, h5,
 	border-bottom: 1px solid $gray-200!important;
 }
 
-
+.footer-font { 
+	font-size: 2rem;
+}
 
 
