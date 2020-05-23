@@ -1196,7 +1196,7 @@ h1, h2, h3, h4, h5,
   transition: 0.15s all ease-in-out;
 }
 .block-team-member-1 figure img {
-  max-width: 130px !important;
+  max-width: 175px !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1305,14 +1305,6 @@ h1, h2, h3, h4, h5,
 }
 .by:hover {
   border-bottom: 1px dotted #ff5757;
-}
-
-.form-control {
-  border: none;
-  border: 1px solid #e6e6e6;
-}
-.form-control:hover, .form-control:active, .form-control:focus {
-  border: 1px solid #666666;
 }
 
 .sidebar-box {
@@ -1553,13 +1545,13 @@ h1, h2, h3, h4, h5,
   border-color: #ff5757;
 }
 
-.footer-suscribe-form .form-control {
+.footer-subscribe-form .form-control {
   color: #000;
 }
-.footer-suscribe-form .form-control:hover, .footer-suscribe-form .form-control:active, .footer-suscribe-form .form-control:focus {
+.footer-subscribe-form .form-control:hover, .footer-subscribe-form .form-control:active, .footer-subscribe-form .form-control:focus {
   color: #000 !important;
 }
-.footer-suscribe-form .btn {
+.footer-subscribe-form .btn {
   color: #fff;
 }
 
@@ -1612,7 +1604,7 @@ h1, h2, h3, h4, h5,
   background-repeat: no-repeat;
 }
 .ftco-cover-1, .ftco-cover-1 .container > .row {
-  height: 75vh;
+  height: 60vh;
 }
 .ftco-cover-1 > .container {
   position: relative;
@@ -1662,6 +1654,11 @@ h1, h2, h3, h4, h5,
 }
 .ftco-cover-1.overlay form .btn {
   border-color: transparent;
+}
+.ftco-cover-1.overlay form .btn:focus, .ftco-cover-1.overlay form .btn:active {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .ftco-service-image-1 .service img {

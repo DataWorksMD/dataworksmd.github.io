@@ -212,7 +212,7 @@
   transition: .15s all ease-in-out;
   figure {
     img {
-      max-width: 130px !important;
+      max-width: 175px !important;
       margin-left: auto;
       margin-right: auto;
     }
@@ -320,16 +320,6 @@
   border-bottom: 1px dotted #ccc;
   &:hover {
     border-bottom: 1px dotted $primary;
-  }
-}
-
-.form-control {
-  border: none;
-  border: 1px solid lighten($black, 90%); // box-shadow: 0 4px 5px -3px rgba(0,0,0,.2)!important;
-  &:hover,
-  &:active,
-  &:focus {
-    border: 1px solid lighten($black, 40%); // box-shadow: 0 4px 5px -3px rgba(0,0,0,.2)!important;
   }
 }
 
@@ -569,7 +559,7 @@
   }
 }
 
-.footer-suscribe-form {
+.footer-subscribe-form {
   .form-control {
     color: $black;
     &:hover,
@@ -639,7 +629,7 @@
   background-repeat: no-repeat;
   &,
   & .container>.row {
-    height: 75vh;
+    height: 60vh;
     
   }
 
@@ -694,6 +684,10 @@
       .btn {
         border-color: transparent;
       }
+      .btn:focus,.btn:active {
+        outline: none !important;
+        box-shadow: none;
+     }
     }
   }
 }

@@ -202,7 +202,7 @@ jQuery(document).ready(function($) {
 	        	responsiveRefreshRate: 10,
 	        	touchDrag: false,
   					mouseDrag: false,
-	          items: 3
+	          items: 2
 	        },
 	        1200:{
 	        	margin: 30,
@@ -211,7 +211,7 @@ jQuery(document).ready(function($) {
 	        	responsiveRefreshRate: 10,
 	        	touchDrag: false,
   					mouseDrag: false,
-	          items: 3
+	          items: 4
 	        }
 		    }
 			});
