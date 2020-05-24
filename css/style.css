@@ -1200,6 +1200,18 @@ h1, h2, h3, h4, h5,
   margin-left: auto;
   margin-right: auto;
 }
+.block-team-member-1 figure:hover {
+  -webkit-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+          transform: scale(1.15);
+  -webkit-transition: 0.4s all;
+  -o-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.block-about-1 {
+  min-height: 375px;
+}
 
 .block-social-1 > a {
   display: inline-block;
@@ -1655,7 +1667,8 @@ h1, h2, h3, h4, h5,
 .ftco-cover-1.overlay form .btn {
   border-color: transparent;
 }
-.ftco-cover-1.overlay form .btn:focus, .ftco-cover-1.overlay form .btn:active {
+.ftco-cover-1.overlay form .btn:focus,
+.ftco-cover-1.overlay form .btn:active {
   outline: none !important;
   -webkit-box-shadow: none;
           box-shadow: none;
