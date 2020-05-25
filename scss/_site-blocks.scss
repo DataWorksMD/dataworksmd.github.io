@@ -774,6 +774,49 @@
   }
 }
 
+.owl-ftco {
+  .owl-dots {
+    text-align: center;
+    margin-top: 30px;
+    .owl-dot {
+      display: inline-block;
+      > span {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        background: #ccc;
+        margin: 5px;
+        border-radius: 50%;
+      }
+      &.active {
+        > span {
+          background: $primary;
+        }
+      }
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    .owl-nav,
+    .owl-dots {
+      display: none;
+    }
+    .owl-stage {
+      transform: none !important;
+      width: 120% !important;
+      padding-top: 10px;
+    }
+    .owl-carousel .owl-stage-outer {
+      width: 100%;
+      overflow: visible;
+    }
+    .owl-stage-outer > .owl-stage > .owl-item {
+      display: inline-grid;
+      float: none;
+      margin-bottom: 30px;
+    }
+  }
+}
+
 .blog-entry {
   .blog-thumbnail {
     flex: 0 0 150px;
