@@ -1779,7 +1779,6 @@ h1, h2, h3, h4, h5,
   -webkit-box-flex: 0;
       -ms-flex: 0 0 150px;
           flex: 0 0 150px;
-  margin-right: 20px;
 }
 .blog-entry .blog-thumbnail img {
   border-radius: 4px;
