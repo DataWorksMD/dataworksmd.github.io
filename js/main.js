@@ -200,6 +200,49 @@ jQuery(document).ready(function ($) {
             responsiveRefreshRate: 10,
             touchDrag: false,
             mouseDrag: false,
+            items: 2,
+          },
+          1200: {
+            margin: 30,
+            stagePadding: 0,
+            nav: false,
+            responsiveRefreshRate: 10,
+            touchDrag: false,
+            mouseDrag: false,
+            items: 2,
+          },
+        },
+      });
+    }
+
+    if ($(".owl-sponsors").length > 0) {
+      $(".owl-sponsors").owlCarousel({
+        center: false,
+        items: 1,
+        loop: false,
+        stagePadding: 0,
+        margin: 15,
+        autoplay: false,
+        nav: false,
+        dots: true,
+        touchDrag: true,
+        mouseDrag: true,
+        smartSpeed: 1000,
+        navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
+        responsive: {
+          768: {
+            margin: 30,
+            nav: false,
+            responsiveRefreshRate: 10,
+            items: 1,
+          },
+          992: {
+            margin: 30,
+            stagePadding: 0,
+            nav: false,
+            responsiveRefreshRate: 10,
+            touchDrag: false,
+            mouseDrag: false,
             items: 3,
           },
           1200: {
