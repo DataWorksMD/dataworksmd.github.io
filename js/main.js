@@ -187,6 +187,7 @@ jQuery(document).ready(function ($) {
         smartSpeed: 1000,
         navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
         responsive: {
+          // Update here when changing number of events.
           768: {
             margin: 30,
             nav: false,
