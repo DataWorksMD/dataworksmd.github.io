@@ -201,7 +201,8 @@ jQuery(document).ready(function ($) {
             responsiveRefreshRate: 10,
             touchDrag: false,
             mouseDrag: false,
-            items: 2,
+            // Update to 1 when only 1 event.
+            items: 1,
           },
           1200: {
             margin: 30,
@@ -210,7 +211,8 @@ jQuery(document).ready(function ($) {
             responsiveRefreshRate: 10,
             touchDrag: false,
             mouseDrag: false,
-            items: 2,
+            // Update to 1 when only 1 event.
+            items: 1,
           },
         },
       });
