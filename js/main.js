@@ -202,7 +202,7 @@ jQuery(document).ready(function ($) {
             touchDrag: false,
             mouseDrag: false,
             // Update to 1 when only 1 event.
-            items: 3,
+            items: 2,
           },
           1200: {
             margin: 30,
@@ -212,7 +212,7 @@ jQuery(document).ready(function ($) {
             touchDrag: false,
             mouseDrag: false,
             // Update to 1 when only 1 event.
-            items: 3,
+            items: 2,
           },
         },
       });
