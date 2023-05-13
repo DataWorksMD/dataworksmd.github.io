@@ -243,12 +243,12 @@ jQuery(document).ready(function ($) {
           992: {
             margin: 30,
             stagePadding: 0,
-            items: 4,
+            items: 3,
           },
           1200: {
             margin: 30,
             stagePadding: 0,
-            items: 4,
+            items: 3,
           },
         },
       });
